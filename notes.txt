@@ -1,0 +1,78 @@
+#Fixes transition from notepad to unix (linux)
+sed -i -e 's/\r$//' FILENAME
+
+I need a brand new script named master to be placed in the /root directory.  This script will initiate a multilevel menu environment.  The master menu should include options for:
+1.	File operations - FINISHED - COLOURED
+2.	User Operations - FINISHED - COLOURED
+3.	Locating information - FINISHED - COLOURED
+4.	Process Menu - IN PROGRESS - COLOURED
+5.	Fun Menu
+88.	Exit - FINISHED
+99. Shut down  - FINISHED
+
+
+SHOW COLOR CODING KEY? (ENABLE/DISABLE)
+
+
+
+The File operations submenu should include the following options:
+1.	Create a file - FINISHED - COLOURED
+2.	Delete a file - FINISHED - COLOURED
+3.	Create a directory - FINISHED - COLOURED
+4.	Delete a directory - FINISHED - COLOURED
+5.	Create a symbolic link - FINISHED - COLOURED
+6.	Change ownership of a file - FINISHED - COLOURED
+7.	Change permissions on a file - FINISHED - COLOURED
+8.	Modify text within a file - FINISHED - COLOURED
+9.	Copy a file - FINISHED - COLOURED
+10.	Rename a file - FINISHED - COLOURED
+88.	Return to main menu - FINISHED - COLOURED
+99.	Shut down - FINISHED - COLOURED
+
+150. Change current working  - FINISHED - COLOURED
+
+
+The User operations menu should contain the following options:
+1.	Create a user - FINISHED - COLOURED
+2.	Change the group for a user - FINISHED - COLOURED
+3.	Create a group - FINISHED - COLOURED
+4.	Delete a user - FINISHED - COLOURED
+5.	Change a password - FINISHED - COLOURED
+88.	Return to Main Menu - FINISHED - COLOURED
+99.	Shut down - FINISHED - COLOURED
+
+DELETE GROUP OPTION?
+
+
+
+
+The Locating information main menu should include the following portions:
+1.	Find text within a file - FINISHED - COLOURED
+2.	Show information about a user account - FINISHED - COLOURED
+3.	List the contents of a directory - FINISHED - COLOURED
+88.	Return to Main Menu - FINISHED - COLOURED
+99.	Shut down - FINISHED - COLOURED
+
+add search script OPTION
+
+The Process main menu should include the following portions:
+1.	Start a command with a defined nice level - FINISHED - COLOURED
+2.	Change nice level of application - FINISHED - COLOURED
+3.	View Processes - FINISHED - COLOURED
+4.	Kill Processes - FINISHED - COLOURED
+5.	Bring up Top - FINISHED - COLOURED
+6.	Move a process to the background - BROKEN - NOT COLOURED
+	How do you find the job id (jobs -l) of something done by another terminal?
+	YOU NEED a job ID for bg.
+		"#*HELP*" has the two areas of concern. Currently showing "jobs -l"
+88.	Return to Main Menu - FINISHED - COLOURED
+99.	Shut down - FINISHED - COLORUED
+
+RUN A SLEEP IN BACKGROUND (TESTING/DEBUGGING)
+MAYBE Move a process to the foreground option?
+
+
+The Fun menu is your opportunity to express your creativity!  Make it special.  
+
+
+This assignment will be graded on functionality, appearance, and ease of use.  Think like a user!!!!!  Someone should be able to set down and use this script correctly the first time.  Have fun.
